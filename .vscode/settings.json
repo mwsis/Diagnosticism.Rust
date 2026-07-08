@@ -1,12 +1,16 @@
 {
 	"[json]": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 2,
+	},
+	"[markdown]": {
 		"editor.insertSpaces": true,
 		"editor.tabSize": 2,
 	},
 	"[python]": {
 		"editor.insertSpaces": true,
 		"editor.rulers": [ 60, 76 ],
-		"editor.tabSize": 2,
+		"editor.tabSize": 4,
 	},
 	"[ruby]": {
 		"editor.insertSpaces": true,
@@ -26,11 +30,15 @@
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": false,
 	"editor.renderWhitespace": "all",
+	"editor.rulers": [ 76 ],
 	"editor.tabSize": 2,
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
 	"git.mergeEditor": false,
 	"rust-analyzer.cargo.noDefaultFeatures": true,
+	"rust-analyzer.cargo.features": [
+		"default",
+	],
 	"rust-analyzer.completion.autoimport.enable": false,
 	"rust-analyzer.showUnlinkedFileNotification": false,
 }
